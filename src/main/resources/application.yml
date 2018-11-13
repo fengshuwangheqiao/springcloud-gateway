@@ -21,6 +21,7 @@ spring:
     gateway:
       discovery:
         locator:
+          #true,忽略serviceId大小写
           lower-case-service-id: true
 
         #      - id: USER-SERVICE            #网关路由到用户服务user-service
